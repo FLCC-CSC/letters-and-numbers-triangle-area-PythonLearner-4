@@ -1,8 +1,8 @@
 # FILE NAME - triangle_area.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Michael Orcutt
+# DATE: 2/14/2025
+# BRIEF DESCRIPTION: A program to calculate the area of a triangle. 
 
 
 
@@ -17,15 +17,14 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
     
+def find_area():   
+    y_val = input("\nEnter the height: ")
+    x_val = input( "Enter the base: ")
+    area = (float(y_val) * float(x_val)) / 2    
+    print(f'\nThe area of the triangle is {area}\n')
     
     
-    
-    
-    
-    
-    
-    
-    
+find_area()
 ########### END YER CODE ABOVE THIS LINE ###########
 
 
@@ -66,13 +65,13 @@ The area of the triangle is 16.0
 
 1. What is the flow of the program? Which line of code kicks off the process?
 
-
+It goes from getting values through input() and then calculates the area on line 24.
 
 
 
 2. What was the hardest part of this lab?
 
-
+The hardest part of this lab was deciding when to convert to float to have the decimal place.
 
 
 
